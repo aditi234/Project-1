@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Lobster&display=swap');
+
+
+@media(min-width:830px){
+  .sweets{
+  display: flex;
+}
+
+}
+
 body{
     margin: 0;
     text-align: center;
@@ -10,9 +20,36 @@ div
      padding-top: 7px;
 
 }
+.topic{
+    color:#8B4513;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    padding:20px;  
+}
+/*--------------------------------sweets----------------------------------------*/
 .sweets_class{
     background-color: white;
 }
+
+.sweets{
+ padding-bottom:30px;
+}
+.box-1 h5{
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+.box-1 img{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
+  
+}
+.box-3{
+  padding: 0px 50px;
+}
+/*-------------------------------*/
 
 .bev_class{
     background-color: #8B4513;
@@ -25,15 +62,7 @@ div
     align-content: center;
 }
 
-.sweets{
-    border-radius: 50%;
-}
 
-#sweet_menu{
-    left: 0;
-    right: 0;
-    align-items: center;
-}
 
 .row-header{
 	margin: 0px auto;
@@ -45,6 +74,10 @@ div
 	padding: 5-px 0px 50px 0px;
 	border-bottom: 1px ridge;
 	min-height: 400px;
+}
+
+.row-style{
+    margin: 0px;
 }
 
 .footer{
