@@ -33,6 +33,7 @@ div
 .sugar{
   color:white;
   font-family: 'Courgette', cursive;
+  padding-top: 100px;
 }
 /*--------------------------------sweets----------------------------------------*/
 .sweets_class{
@@ -170,7 +171,9 @@ transform: translateX(0);
     padding: 10px;
 }
 
-
+.card{
+  margin: auto;
+}
 .carousel-item {
   height: 500px;
 }
@@ -243,15 +246,23 @@ padding: 6px;
 
 .btn-l {
     padding: 1.05rem 1.5rem 1rem;
-    font-size: 0.7rem;
-    background-color: rgb(238, 176, 176);
+    font-size: 1rem;
+    background-color: #D4AF37;
+    color:white;
+    font-family: 'Bree Serif', serif;
+}
+
+.space20{
+  padding: 8px 8px
 }
 
 .btn-l:hover {
-    background-color: rgb(238, 51, 51);
+    background-color: #b35900;
     animation: pulse;
     /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s;
+    font-family: 'Bree Serif', serif;
+    color:white;
 }
 @media screen and (max-width: 780px){
   .inner{
