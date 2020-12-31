@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Lobster&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 @media(min-width:830px){
   .sweets{
@@ -25,6 +28,11 @@ div
     font-size: 50px;
     font-family: 'Lobster', cursive;
     padding:20px;  
+}
+
+.sugar{
+  color:white;
+  font-family: 'Courgette', cursive;
 }
 /*--------------------------------sweets----------------------------------------*/
 .sweets_class{
@@ -149,10 +157,7 @@ transform: translateX(0);
 	color: #0f0f0f;
 }
 
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
-}
+
 
 .navbar-dark {
      background-color: #8B4513;
@@ -203,17 +208,61 @@ body{
     z-index: 1;
 }
 
-#ss {
-border: 12px solid #B22222;
-border-radius: 10px;
-margin-top: 15px;
-margin-bottom: 15px;
-}
 
 img{
     max-width: 100%;
     height: auto;
 }
+
+/*------------------------------------------contact-----------------------*/
+
+.container-fluid {
+    background-image: url("img/background-01.png") ;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+}
+
+#contact h1{
+font-family: 'Bree Serif', serif;
+padding: 6px;
+}
+
+#contact h4{
+  font-family: 'Bree Serif', serif;
+  color:#D4AF37;
+  padding: 5px;
+}
+
+.inner {
+    background-color: white;
+    width: 500px;
+    height: 450px;
+}
+
+.btn-l {
+    padding: 1.05rem 1.5rem 1rem;
+    font-size: 0.7rem;
+    background-color: rgb(238, 176, 176);
+}
+
+.btn-l:hover {
+    background-color: rgb(238, 51, 51);
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+@media screen and (max-width: 780px){
+  .inner{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
+}
+
+/*--------------------------------------------------------------*/
 
 
 /*------------------footer-------------------*/
